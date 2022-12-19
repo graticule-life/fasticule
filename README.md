@@ -20,7 +20,7 @@ http://localhost:8000
 
 Build a Docker image:
 ```bash
-docker build -t fasticule:$(git rev-parse --short HEAD) fasticule:latest .
+docker build -t fasticule:$(git rev-parse --short HEAD) -t fasticule:latest .
 ```
 Run a corresponding container:
 ```bash
